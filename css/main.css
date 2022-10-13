@@ -3,6 +3,7 @@
 font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif;*/
 body {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
   padding: 0;
   /*scroll fijo*/
@@ -57,8 +58,8 @@ nav .nav-logo-container img {
 nav .profile-link {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 50px;
+  justify-content: flex-end;
+  margin-right: 50px;
 }
 nav .profile-link a {
   color: black;
@@ -88,3 +89,39 @@ nav .profile-link a {
   color: rgb(250, 246, 246);
   text-align: center;
 }
+.home-main-button {
+  width: 120px;
+  height: 60px;
+  background-color: #47cfac;
+  display: grid;
+  align-items: center;
+}
+.home-main-button a {
+  font-weight: 700;
+  font-size: 18px;
+}
+.blogs-main {
+  display: grid;
+}
+.blogs-news-container {
+  background-color: #e6e9ed;
+  padding: 0 50px 40px;
+  }
+  .blogs-main-news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+  }
+  .blogs-news-img-container {
+    grid-column: 1;
+  }
+  .blogs-news-img-container img {
+
+  }
+  .blogs-news-info-container {
+    grid-column: 2;
+  }
+  .blogs-news-info-container p {
+    margin-bottom: 35px;
+    
+  }
