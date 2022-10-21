@@ -2,6 +2,7 @@
 .blogs-main-news { /*blogs*/
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
+    }
 }
 .blogs-news-img-container {
     grid-row: 2;
